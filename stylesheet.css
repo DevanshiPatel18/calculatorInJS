@@ -1,0 +1,45 @@
+p{
+  font-size: 30px;
+  text-align: center;
+}
+.calculator_keys, .calculator-screen{
+  border: 5px solid white ;
+  border-style: groove;
+  border-width: thick;
+}
+.calculator{
+  width: 20%;
+  text-align: center;
+  margin: 0 auto;
+  height: 200px;
+}
+
+.calculator-screen input{
+  width: 70%;
+  margin: 0;
+  border: 5px solid white ;
+  border-style: groove;
+  border-width: thick;
+  text-align: right;
+  margin:0;
+}
+.calculator-screen button{
+  float: right;
+  background-color: lightblue;
+  border: 5px solid white ;
+  border-style: groove;
+  border-width: thick;
+  width: 25%;
+  margin: 0;
+}
+.row{
+  display: flex;
+}
+
+.calculator_keys button{
+  background-color: lightblue;
+  border: 5px solid white ;
+  border-style: groove;
+  border-width: thick;
+  width: 100%;
+}
